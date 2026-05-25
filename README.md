@@ -2,14 +2,6 @@
 
 A modern, full-stack educational quiz platform built for young learners. Features interactive quizzes, timed challenges, leaderboards, and a beautiful UI with dark/light mode.
 
-![QuizBee](https://img.shields.io/badge/QuizBee-Educational_Platform-6C63FF?style=for-the-badge)
-![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react)
-![Node.js](https://img.shields.io/badge/Node.js-20-339933?style=flat-square&logo=node.js)
-![MongoDB](https://img.shields.io/badge/MongoDB-6-47A248?style=flat-square&logo=mongodb)
-![Express](https://img.shields.io/badge/Express-4-000000?style=flat-square&logo=express)
-
----
-
 ## ✨ Features
 
 ### 🎓 Student Features
@@ -87,10 +79,6 @@ Quizbee/
 
 ## 🚀 Getting Started
 
-### Prerequisites
-- **Node.js** v18+ 
-- **MongoDB** (local or Atlas)
-- **npm** v9+
 
 ### 1. Clone the repository
 ```bash
@@ -127,10 +115,6 @@ npm install
 npm run dev
 ```
 
-The frontend runs on **http://localhost:3000**
-
----
-
 ## 🔑 Default Accounts
 
 | Role | Email | Password |
@@ -138,41 +122,6 @@ The frontend runs on **http://localhost:3000**
 | Admin | admin@quizbee.com | Admin@123 |
 
 Students can register through the Sign Up page.
-
----
-
-## 📡 API Endpoints
-
-### Authentication
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | `/api/auth/register` | Register new student |
-| POST | `/api/auth/login` | Login |
-| GET | `/api/auth/me` | Get current user |
-
-### Quizzes
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/api/quizzes` | List quizzes (search/filter) |
-| GET | `/api/quizzes/:id` | Get single quiz |
-| POST | `/api/quizzes` | Create quiz (Admin) |
-| PUT | `/api/quizzes/:id` | Update quiz (Admin) |
-| DELETE | `/api/quizzes/:id` | Delete quiz (Admin) |
-
-### Questions
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/api/questions/quiz/:id` | Get quiz questions |
-| POST | `/api/questions` | Add question (Admin) |
-| PUT | `/api/questions/:id` | Update question (Admin) |
-| DELETE | `/api/questions/:id` | Delete question (Admin) |
-
-### Results & Leaderboard
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | `/api/results` | Submit quiz result |
-| GET | `/api/results/my` | Get my results |
-| GET | `/api/leaderboard` | Global leaderboard |
 
 ---
 
@@ -192,6 +141,3 @@ Students can register through the Sign Up page.
 
 This project is for educational purposes.
 
----
-
-Made with ❤️ and 🐝 by QuizBee Team
